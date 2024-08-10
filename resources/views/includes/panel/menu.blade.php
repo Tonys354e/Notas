@@ -7,7 +7,7 @@
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link " href="./examples/icons.html">
+    <a class="nav-link " href="{{ url('/Notas')}}">
       <i class="ni ni-collection text-blue"></i> crea tus Notas
     </a>
   </li>

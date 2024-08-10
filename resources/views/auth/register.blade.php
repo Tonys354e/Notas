@@ -41,22 +41,23 @@
                   <input class="form-control" placeholder="Correo electronico" type="email" name="email" value="{{ old('email') }}" required autocomplete="email">
                 </div>
               </div>
-              <div class="form-group">
-                <div class="input-group input-group-alternative">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
-                  </div>
-                  <input class="form-control" placeholder="Contraseña" type="password">
-                </div>
-              </div>
+              
 
-              <div class="form-group">
-                <div class="input-group input-group-alternative">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
-                  </div>
-                  <input class="form-control" placeholder="Repetir Contraseña" type="password" name="password" required autocomplete="new-password" name="password_confirmation" required autocomplete="new-password">
-                </div>
+              <div class="form-group">  
+                <div class="input-group input-group-alternative">  
+                  <div class="input-group-prepend">  
+                    <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>  
+                  </div>  
+                  <input class="form-control" placeholder="Contraseña" type="password" name="password" required autocomplete="new-password">  
+                </div>  
+              </div>  
+              <div class="form-group">  
+                <div class="input-group input-group-alternative">  
+                  <div class="input-group-prepend">  
+                    <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>  
+                  </div>  
+                  <input class="form-control" placeholder="Repetir Contraseña" type="password" name="password_confirmation" required autocomplete="new-password">  
+                </div>  
               </div>
 
               
